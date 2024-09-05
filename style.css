@@ -1,0 +1,53 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Nanum Gothic Coding', monospacef;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5em;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: rgb(203, 203, 203); /* 텍스트 색상 변경 */
+    margin: 5px auto;
+    max-width: 300px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1em; /* 원하는 크기로 조절 */
+}
+
+/* 마우스 호버 시 배경색과 변형 추가 */
+ul li:hover {
+    background-color: #ffffffff;
+    color: rgb(0, 0, 0); /* 텍스트 색상 변경 */
+    transform: scale(1);
+}
+
+.nanum-gothic-coding-regular {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .nanum-gothic-coding-bold {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
