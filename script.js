@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             title: "이중적인 나를 위한 전시 이중전" // 팝업 타이틀 
         },
         "이코이_해커톤": {
-            imageUrl: "이코이/이코이.jpg",
+            imageUrl: "이코이/double1.jpg",
             videoUrl: "", // 비디오 URL이 없는 경우
             text: `이코이 ESG경영 ECO의 새로운 시각
             
